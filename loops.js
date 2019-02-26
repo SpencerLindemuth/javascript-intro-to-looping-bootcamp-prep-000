@@ -10,3 +10,11 @@ function forLoop(foo){
       }
     }
 }
+
+function whileloop(num){
+  while(num >= 0){
+    num--;
+    console.log(num)
+  }
+  return "done"
+}
