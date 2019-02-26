@@ -3,13 +3,12 @@ function forLoop(foo){
       var bar = []
       if(i === 1){
         bar = [...foo, "I am 1 strange loop"]
-        return bar
       }
       else{
         bar = [...foo, `I am ${i} strange loops`]
-        return bar
       }
     }
+    return bar
 }
 
 function whileLoop(num){
