@@ -4,7 +4,7 @@ function forLoop(foo){
         var bar = foo.push('I am 1 strange loop.')
       }
       else{
-        var bar = foo.push(```I am ${i} strange loops```)
+        var bar = foo.push('I am ${i} strange loops')
       }
       return bar
     }
