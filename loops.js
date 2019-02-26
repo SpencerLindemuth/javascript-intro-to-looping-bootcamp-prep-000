@@ -11,7 +11,7 @@ function forLoop(foo){
     }
 }
 
-function whileloop(num){
+function whileLoop(num){
   while(num >= 0){
     num--;
     console.log(num)
